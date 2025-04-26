@@ -27,6 +27,7 @@ module.exports = {
       name: "container",
       remotes: {
         mfe1: "mfe1@http://localhost:3001/remoteEntry.js", // Remote entry for mfe1
+        signInSignUpInHost: "mfe1@http://localhost:3001/remoteEntry.js",
       },
       shared: {
         react: { singleton: true, requiredVersion: "^18.2.0" },
